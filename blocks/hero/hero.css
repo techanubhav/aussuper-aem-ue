@@ -47,7 +47,7 @@
   margin-left: 20px;
 }
 
-.hero > div:nth-child(2) > div:first-child > p:first-child > strong {
+.hero > div:nth-child(2) > div:first-child > p > strong {
   margin: 0px 0px;
   color: #fff;
   font-family: Gotham;
