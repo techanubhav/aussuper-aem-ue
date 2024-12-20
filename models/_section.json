@@ -40,6 +40,10 @@
             {
               "name": "Tiles",
               "value": "tiles"
+            },
+            {
+              "name": "CTA",
+              "value": "cta"
             }
           ]
         }

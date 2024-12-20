@@ -114,11 +114,14 @@
           {
             "name": "Awards",
             "value": "awards"
-          }
-          ,
+          },
           {
             "name": "Tiles",
             "value": "tiles"
+          },
+          {
+            "name": "CTA",
+            "value": "cta"
           }
         ]
       }
