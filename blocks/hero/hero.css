@@ -30,6 +30,8 @@
   position: absolute;
   z-index: -2;
   right: 0;
+  object-fit: cover;
+  object-position: 150px 0px;
 }
 
 @media (width >= 900px) {
@@ -40,9 +42,9 @@
 }
 
 .hero > div:nth-child(2) {
-  width: 40%;
+  width: 50%;
   margin-top: 40px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .hero > div:nth-child(2) > div:first-child > p:first-child > strong {
