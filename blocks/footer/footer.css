@@ -1,6 +1,6 @@
 footer {
   background-color: #260033;
-  font-size: var(--body-font-size-xs);
+  font-size: var(--body-font-size-m);
 }
 
 footer .footer > div {
@@ -11,6 +11,21 @@ footer .footer > div {
 
 footer .footer p {
   margin: 0;
+  color: #fff;
+  line-height: 40px;
+}
+
+footer .footer img {
+  width: auto;
+}
+
+footer .footer a {
+  color: white
+}
+
+footer .footer ul {
+  list-style: none;
+  padding: 0px;
 }
 
 @media (width >= 900px) {

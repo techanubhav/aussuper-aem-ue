@@ -44,6 +44,10 @@
             {
               "name": "CTA",
               "value": "cta"
+            },
+            {
+              "name": "Copyright",
+              "value": "copyright"
             }
           ]
         }
