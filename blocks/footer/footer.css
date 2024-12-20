@@ -33,3 +33,8 @@ footer .footer ul {
     padding: 40px 32px 24px;
   }
 }
+
+footer .footer .copyright p {
+  font-size: var(--body-font-size-s);
+  line-height: 20px;
+}

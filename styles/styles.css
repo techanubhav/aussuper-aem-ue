@@ -267,3 +267,7 @@ main .section.cards .default-content-wrapper > p {
   text-align: center;
   padding-bottom: 50px;
 }
+
+main .section.copyright p {
+  font-size: var(--body-font-size-s);
+}
