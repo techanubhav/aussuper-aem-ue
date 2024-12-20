@@ -76,3 +76,37 @@ main .section.cta .columns div:first-child > div:first-child {
 main .section.cta .columns div {
   gap: 0px;
 }
+
+main .section.awards {
+  background-color: #f5f5f5;
+  margin: 50px 100px;
+  padding: 50px 0px;
+}
+
+main .section.awards p {
+  color: #2e2e2e;
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main .section.awards img {
+  width: 200px;
+}
+
+main .section.tiles a.button {
+  color: #260046;
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+main .section.tiles p {
+  color: #585858;
+}
+
+main .section.tiles p > strong {
+  color: black;
+  font-size: 1.1rem;
+  /* line-height: 3.2rem; */
+}
