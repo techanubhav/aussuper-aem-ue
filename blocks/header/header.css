@@ -152,12 +152,13 @@ header nav .nav-brand img {
 /* sections */
 header nav .nav-sections {
   grid-area: sections;
-  flex: 1 1 auto;
-  display: none;
+  flex: 1 1 auto;  
   visibility: hidden;
   color: #260046;
   text-transform: uppercase;
   text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header nav[aria-expanded='true'] .nav-sections {
@@ -268,4 +269,59 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+header nav .nav-login a.button:any-link,
+header nav .nav-login button {
+    border-radius: 2.4em;
+    padding: 0.8em 2em;
+    font-size: 14px;
+    background-color: #ede1b5;
+    color: #260046;
+    text-transform: uppercase;
+  }
+
+header nav .nav-login a.button::after {
+  content: "▾"; /* Outline down-pointing triangle */
+  margin-left: 8px; /* Space between text and arrow */
+  font-size: 14px;
+}
+
+header nav .nav-login a.button:hover,
+header nav .nav-login a.button:focus,
+header nav .nav-login button:hover,
+header nav .nav-login button:focus {
+  background-color: #e9e5d7;
+  cursor: pointer;
+}
+
+header nav .nav-join a.button:any-link,
+header nav .nav-join button {
+    border-radius: 2.4em;
+    padding: 0.8em 2em;
+    font-size: 14px;
+    background-color: #d93e02;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+header nav .nav-join a.button::after {
+  content: "▾"; /* Outline down-pointing triangle */
+  margin-left: 8px; /* Space between text and arrow */
+  font-size: 14px;
+}
+
+header nav .nav-join a.button:hover,
+header nav .nav-join a.button:focus,
+header nav .nav-join button:hover,
+header nav .nav-join button:focus {
+  background-color: #d2734e;
+  cursor: pointer;
 }

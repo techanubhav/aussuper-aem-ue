@@ -27,6 +27,19 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Cards",
+              "value": "cards"
+            },
+            {
+              "name": "Awards",
+              "value": "awards"
+            }
+            ,
+            {
+              "name": "Tiles",
+              "value": "tiles"
             }
           ]
         }
